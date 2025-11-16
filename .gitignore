@@ -1,0 +1,4 @@
+*.py
+*.sqlite3
+__pycache__
+virtualenvironment/

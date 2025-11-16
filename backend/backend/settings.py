@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tasks_application',
+    'rest_framework',
     'corsheaders'   #cross origin resource sharing -> by default webserver blocks request from
                     #one domain to another domain cors headers used to allow/deny those actions
 ]

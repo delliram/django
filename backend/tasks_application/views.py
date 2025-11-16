@@ -8,7 +8,7 @@ from .serializers import Task_Serializer
 
 @api_view(['GET'])
 def TaskView(request):
-    if request=="GET":
+    if request.method=="GET":
         model=Task_Model.objects.all()
         serializer=Task_Serializer(model,many=True)
         return Response(serializer.data)
